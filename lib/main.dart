@@ -2,7 +2,16 @@ import 'package:flutter/material.dart';
 
 void main() {
   var app = MaterialApp(
-    home: Text('Hi sweetie!'),
+    home: Center(
+        child: Text('Hi sweetie!',
+            style: TextStyle(
+              fontStyle: FontStyle.italic,
+              color: Colors.pink[100],
+              decoration: TextDecoration.underline,
+              decorationColor: Colors.red[300],
+              decorationStyle: TextDecorationStyle.wavy,
+            ),
+            textAlign: TextAlign.center)),
   );
   runApp(app);
 }
