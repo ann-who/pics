@@ -1,18 +1,12 @@
 import 'package:flutter/material.dart';
 
-Future<void> main() async {
+void main() {
   var app = MaterialApp(
-    home: Center(
-        child: Text('Hi sweetie!',
-            style: TextStyle(
-              fontStyle: FontStyle.italic,
-              color: Colors.green[300],
-              decoration: TextDecoration.underline,
-              decorationColor: Colors.green[100],
-              decorationStyle: TextDecorationStyle.wavy,
-            ),
-            textAlign: TextAlign.center)),
+    home: Scaffold(
+      appBar: AppBar(),
+    ),
   );
+
   runApp(app);
 }
 
