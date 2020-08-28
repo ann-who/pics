@@ -8,7 +8,7 @@ void main() {
           onPressed: () {
             print('Hi sweetie!');
           },
-          child: Text('+')),
+          child: Icon(Icons.add)),
     ),
   );
 
